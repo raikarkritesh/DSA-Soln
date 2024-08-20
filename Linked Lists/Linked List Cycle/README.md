@@ -6,21 +6,28 @@ Return true if there is a cycle in the linked list. Otherwise, return false.
 
  
 
-Example 1:
+Example 1: 
+
 ![alt text](image.png)
+
 Input: head = [3,2,0,-4], pos = 1
 Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
+
+
 Example 2:
 
+![alt text](image-1.png)
 
 Input: head = [1,2], pos = 0
-![alt text](image-1.png)
 Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 
+
 Example 3:
+
 ![alt text](image-2.png)
+
 Input: head = [1], pos = -1
 Output: false
 Explanation: There is no cycle in the linked list.
